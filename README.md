@@ -8,4 +8,5 @@ Features:
 
 Future features:
 -The ability to chose a sector and generate random ticker symbols based on that sector.
+
 -Also the ability to select the ticker symbol and open up the browser to see the current price.
