@@ -5,3 +5,7 @@ to open up your browser and see the current stocks forecast and price.
 
 Features:
 -Shake gesture to refresh the ticker symbol.
+
+Future features:
+-The ability to chose a sector and generate random ticker symbols based on that sector.
+-Also the ability to select the ticker symbol and open up the browser to see the current price.
