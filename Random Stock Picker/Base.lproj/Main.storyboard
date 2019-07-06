@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9Q-02-cwX">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9Q-02-cwX">
                                 <rect key="frame" x="36" y="551" width="343" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Refresh"/>
@@ -28,16 +27,38 @@
                                     <action selector="RandomStockButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uti-Xl-Ai9"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COg-yp-TbX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COg-yp-TbX">
                                 <rect key="frame" x="58" y="270" width="299" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Sc-hC-3It">
+                                <rect key="frame" x="125" y="413" width="165" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="1Q8-9x-gAF"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="pressLearnMore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kyt-jw-x1Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="COg-yp-TbX" firstAttribute="centerX" secondItem="3Sc-hC-3It" secondAttribute="centerX" id="0sQ-VV-VP2"/>
+                            <constraint firstItem="COg-yp-TbX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4MB-hS-vCX"/>
+                            <constraint firstItem="3Sc-hC-3It" firstAttribute="centerX" secondItem="l9Q-02-cwX" secondAttribute="centerX" id="PNY-bq-WQ7"/>
+                            <constraint firstItem="l9Q-02-cwX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="TEB-sw-th2"/>
+                            <constraint firstItem="COg-yp-TbX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="182" id="U2F-N0-bRr"/>
+                            <constraint firstItem="3Sc-hC-3It" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="WJc-LA-7dK"/>
+                            <constraint firstItem="3Sc-hC-3It" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="guz-8n-Ik9"/>
+                            <constraint firstItem="l9Q-02-cwX" firstAttribute="top" secondItem="3Sc-hC-3It" secondAttribute="bottom" constant="68" id="iFL-TR-VDh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l9Q-02-cwX" secondAttribute="bottom" constant="209" id="nVv-5v-l8x"/>
+                            <constraint firstItem="3Sc-hC-3It" firstAttribute="top" secondItem="COg-yp-TbX" secondAttribute="bottom" constant="47" id="qes-tz-m1d"/>
+                            <constraint firstItem="COg-yp-TbX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="u5R-Rj-mGT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="MBr-bL-n5h"/>
