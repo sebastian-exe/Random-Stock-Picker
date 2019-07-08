@@ -12,6 +12,7 @@
 		7649DEEB22B355A700A5CBC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7649DEE922B355A700A5CBC9 /* Main.storyboard */; };
 		7649DEED22B355A800A5CBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7649DEEC22B355A800A5CBC9 /* Assets.xcassets */; };
 		7649DEF022B355A800A5CBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7649DEEE22B355A800A5CBC9 /* LaunchScreen.storyboard */; };
+		76F717E922D3D39800E83DA8 /* RealEstateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F717E822D3D39800E83DA8 /* RealEstateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7649DEEC22B355A800A5CBC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7649DEEF22B355A800A5CBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7649DEF122B355A800A5CBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F717E822D3D39800E83DA8 /* RealEstateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				7649DEE522B355A700A5CBC9 /* AppDelegate.swift */,
+				76F717E822D3D39800E83DA8 /* RealEstateViewController.swift */,
 				7649DEE722B355A700A5CBC9 /* ViewController.swift */,
 				7649DEE922B355A700A5CBC9 /* Main.storyboard */,
 				7649DEEC22B355A800A5CBC9 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				7649DEE822B355A700A5CBC9 /* ViewController.swift in Sources */,
 				7649DEE622B355A700A5CBC9 /* AppDelegate.swift in Sources */,
+				76F717E922D3D39800E83DA8 /* RealEstateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
